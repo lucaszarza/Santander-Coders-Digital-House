@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Estudo de Posicionamento</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			font-size: 32px;
+		}
+
+		main {
+			margin: 20px;
+			background-color: #E0E0E0;
+			padding: 20px;
+		}
+
+		section {
+			background-color: #F0F0F0;
+			margin-bottom: 20px;
+			position: relative;
+		}
+
+		article {
+			width: 100px;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+		}
+
+		article:nth-child(1){
+			background-color: rgb(0, 138, 0);
+		}
+
+		article:nth-child(2){
+			background-color: rgb(0, 177, 0);
+		}
+
+		article:nth-child(3){
+			background-color: rgb(0, 199, 0);
+		}
+
+		.section-1 article:last-child{
+			background-color: purple;
+			position: relative;
+			top: 10px;
+			left: 10px;
+		}
+		.section-2 article:last-child{
+			background-color: purple;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		.section-3 article:last-child{
+			background-color: purple;
+			position: fixed;
+			top: 10px;
+			right: 10px;
+		}
+
+		nav {
+			background-color: pink;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			z-index: 1;
+		}
+
+	</style>
+</head>
+<body>
+	<nav>
+		Conteudo
+	</nav>
+	<main>
+		<section class="section-1">
+			<article>1</article>
+			<article>2</article>
+			<article>3</article>
+		</section>
+		<section class="section-2">
+			<article>1</article>
+			<article>2</article>
+			<article>3</article>
+		</section>
+		<section class="section-3">
+			<article>1</article>
+			<article>2</article>
+			<article>3</article>
+		</section>
+	</main>
+</body>
+</html>

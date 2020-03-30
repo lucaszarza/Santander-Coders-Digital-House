@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			padding: 0;
+			margin: 0;
+		}
+
+		header {
+			background-color: lightblue;
+			height: 200px;
+			margin-bottom: 20px;
+		}
+
+		.container {
+			width: 90%;
+			max-width: 960px;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+		
+			justify-content: center;
+		}
+
+		aside.left {
+			background-color: lightblue;
+			width: 200px;
+			height: 500px;
+			margin-right: 20px;
+			flex-shrink: 0;
+		}
+
+		main {
+			background-color: lightblue;
+			width: 500px;
+			height: 500px;
+			margin-right: 20px;
+			flex-grow: 1;
+		}
+
+		aside.right {
+			background-color: lightblue;
+			width: 100px;
+			height: 500px;
+			flex-shrink: 0;
+			
+		}
+		
+	</style>
+</head>
+<body>
+	<header>HEADER</header>
+	<div class="container">
+		<aside class="left">A</aside>
+		<main>
+			B
+		</main>
+		<aside class="right">C</aside>
+	</div>
+
+</body>
+</html>

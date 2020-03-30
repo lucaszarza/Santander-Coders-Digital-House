@@ -1,0 +1,45 @@
+/*
+Comandos de um terminal - Git Bash, CMDER, chocolatey(biblioteca dentro do cmd)
+pwd -> diz a pasta atual.
+ls -> lista o conteúdo da página
+    ls -a -> mostra todo o conteudo, inclusive os ocultos
+    ls -lha -> mostra o tamanho e detalhes dos arquivos, de forma mais humanizada, lista conteudo da página
+    ls - l -> exibe em forma de lista
+mkdir -> cria uma pasta (não é recomendado usar espaços)
+cd -> muda o diretório nas pastas, permite a navegação
+    cd .. -> retorna uma pasta
+    ad . -> pasta atual/avança
+touch -> cria um arquivo vazio (void)
+mv -> move/renomeia uma pasta
+rm -> remove um arquivo
+    rmdir -> apagar uma pasta vazia
+    rm -r -> apaga uma pasta com o conteúdo que possui
+    rm -r *. -> apaga tudo, neste caso todos os arquivos que terminam que terminam com html
+
+comando --help -> te lista as possiveis funções daquele comando
+mkdir ./assets/img ->cria a partir do diretorio principal, uma pasta dentro de uma pasta
+
+git init -> transforma pasta em supositório com certos "poderes"
+git add --all -> adiciona tudo ao mundo git, para sair no commit e salvar suas versões anteriores
+    git add . -> adiciona todos os arquivos para sair no commit, lembrando que apenas da pasta em que estiver 
+
+git status -> mostra o status de tudo que vai ser salvo no commit
+
+git config user.name "lucaszarza"
+git config user.email "lucas-lsz@hotmail.com"
+
+git commit -m "Commit Inicial" -> inicia o commit na pasta
+git log -> mostra os detalhes do commit
+    git log --oneline -> resume os commits e evita muitos detalhes
+
+git checkout -> podemos passar parte do hash (código do git) e ele retorna ao ultimo checkpoint
+code . -> abre o vscode na pasta em que estava
+./ pasta atual
+../ pasta pai
+../../ pasta avô
+
+Download GIT KRAKEN - Interface pro git
+www.learngitbranching.js.org
+*/
+
+

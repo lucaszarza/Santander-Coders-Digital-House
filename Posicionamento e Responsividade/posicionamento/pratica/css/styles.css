@@ -1,0 +1,36 @@
+/**
+* Cor base: #901AB3
+* Cor secundária: #D752FF
+* Cor de Fundo: #F0F0F0
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.perfil{
+	width: 400px;
+	background-color: #F0F0F0;
+}
+
+.head{
+	background-color:#901AB3;
+	position:relative;
+	border-radius: 75px 0 0px 0;
+}
+
+.head img{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}

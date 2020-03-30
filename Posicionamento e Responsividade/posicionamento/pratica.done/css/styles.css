@@ -1,0 +1,85 @@
+/**
+* Cor base: #901AB3
+* Cor secundária: #D752FF
+* Cor de Fundo: #F0F0F0
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.perfil{
+	width: 400px;
+	background-color: #F0F0F0;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	border-radius: 75px 0 75px 0;
+}
+
+.head{
+	background-color:#901AB3;
+	position:relative;
+	border-radius: 75px 0 0px 0;
+}
+
+.head img{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.head div{
+	position: absolute;
+	bottom: -24px;
+	right: 20px;
+}
+
+.head button{
+	color:white;
+	background-color: #D752FF;
+	width: 48px;
+	height: 48px;
+	border: none;
+	border-radius: 50%;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	margin-left: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+.head h2{
+	color: white;
+	margin-right: 20px;
+	position: absolute;
+	top: 0;
+	right:0;
+	margin-top: -1.2rem;
+	top:50%;
+	font-size: 2.4rem;
+	line-height: 2.4rem;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	font-family: 'Liu Jian Mao Cao';
+}
+
+.body{
+	
+	padding: 20px;
+}
+
+.body div{
+	margin-bottom: 0.5rem;
+}
